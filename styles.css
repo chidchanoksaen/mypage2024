@@ -4,6 +4,8 @@ table {
   font-family: sans-serif;
   font-size: 0.8rem;
   letter-spacing: 1px;
+  width: 80%;
+  margin: auto;
 }
 
 caption {
@@ -37,4 +39,16 @@ tfoot th {
 
 tfoot td {
   font-weight: bold;
+}
+img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.tableProfile th,tr {
+  border: none;
+}
+table.tableProfile {
+  border: none !important;
+  width: 100%;
 }
